@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dice Roller</title>
+</head>
+
+<body>
+    <header>
+        <h1>Dice Roller</h1>
+    </header>
+    <div class="container">
+        <legend for="quantity">Modifier</legend>
+        <input type="number" name="quantity" id="quantity" value="1">
+        <legend for="dice">Dice</legend>
+        <input type="text" name="dice" id="dice">
+        <legend for="modifier">Modifier</legend>
+        <input type="number" name="modifier" id="modifier" value="0">
+        <button class="btn">Rolar</button>
+        <h2>Resultado</h2>
+        <textarea class="result"" cols="30" rows="10"></textarea>
+        <button class="btnReset">Zerar</button>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
