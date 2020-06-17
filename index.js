@@ -1,5 +1,5 @@
 //Getting all elements needed from body
-const btnRoll = document.querySelector(".btn")
+const btnRoll = document.querySelector(".btnRoll")
 const multiplier = document.getElementById("quantity")
 const dice = document.getElementById("dice")
 const modifier = document.getElementById("modifier")
