@@ -1,4 +1,4 @@
-# js-dice-roller
+# :game_die: js-dice-roller
 A simple dice roller using javascript and html.
 
 For now it's just a simple HTML page using javascript to implement its logics.
